@@ -1,0 +1,27 @@
+.donate-button {
+  margin-top: 3em;
+}
+
+.pol-logo {
+  margin-top: 5em;
+}
+
+.carousel-fill{
+  width: 100%;
+  height: 100%;
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+.carousel-inner {
+  height:100%;
+}
+
+.carousel, .item, .active {
+  height: 100%;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
