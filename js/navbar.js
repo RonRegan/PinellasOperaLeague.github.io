@@ -1,0 +1,46 @@
+$(document).ready(function(){
+  document.getElementById("navbar").innerHTML = '\
+  <!-- Fixed navbar -->\
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">\
+    <div class="container">\
+      <div class="navbar-header">\
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">\
+          <span class="sr-only">Toggle navigation</span>\
+          <span class="icon-bar"></span>\
+          <span class="icon-bar"></span>\
+          <span class="icon-bar"></span>\
+        </button>\
+        <a class="navbar-brand" href="index.html">Pinellas Opera League</a>\
+      </div>\
+      <div class="navbar-collapse collapse">\
+        <ul class="nav navbar-nav">\
+          <li id="home"><a href="index.html">Home</a></li>\
+          <li id="galleries" class="dropdown">\
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Galleries <b class="caret"></b></a>\
+          <ul class="dropdown-menu">\
+            <li><a href="apr-lunch.html">April Luncheon</a></li>\
+            <li><a href="cruise.html">Valentines Day Cruise</a></li>\
+          </ul>\
+          </li>\
+          <li id="newsletters" class="dropdown">\
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Newsletters <b class="caret"></b></a>\
+          <ul class="dropdown-menu">\
+            <li><a href="documents/april2014.pdf">April 2014</a></li>\
+            <li><a href="documents/march2014.pdf">March 2014</a></li>\
+            <li><a href="documents/feb2014.pdf">February 2014</a></li>\
+            <li><a href="documents/jan2014.pdf">January 2014</a></li>\
+            <li><a href="documents/dec2013.pdf">December 2013</a></li>\
+          </ul>\
+          </li>\
+          <li id="contact"><a href="contact.html">Contact</a></li>\
+          <li id="local_opera"><a href="local_opera.html">Local Opera</a></li>\
+        </ul>\
+      </div><!--/.nav-collapse -->\
+    </div>\
+  </div>'
+});
+
+function setActiveNavbar(choice) {
+  var list_item = document.getElementById(choice);
+  list_item.className += list_item.className ? " active" : "active";
+}
