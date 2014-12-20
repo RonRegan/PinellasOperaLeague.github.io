@@ -18,15 +18,17 @@ $(document).ready(function(){
           <li id="galleries" class="dropdown">\
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Galleries <b class="caret"></b></a>\
           <ul class="dropdown-menu">\
-            <li><a href="nov-14-lunch.html">November Luncheon</a></li>\
-            <li><a href="oct-14-lunch.html">October Luncheon</a></li>\
-            <li><a href="apr-lunch.html">April Luncheon</a></li>\
+            <li><a href="dec-14-lunch.html">December 2014 Luncheon</a></li>\
+            <li><a href="nov-14-lunch.html">November 2014 Luncheon</a></li>\
+            <li><a href="oct-14-lunch.html">October 2014 Luncheon</a></li>\
+            <li><a href="apr-lunch.html">April 2014 Luncheon</a></li>\
             <li><a href="cruise.html">Valentines Day Cruise</a></li>\
           </ul>\
           </li>\
           <li id="newsletters" class="dropdown">\
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Newsletters <b class="caret"></b></a>\
           <ul class="dropdown-menu">\
+            <li><a href="documents/jan2015.pdf">January 2015</a></li>\
             <li><a href="documents/dec2014.pdf">December 2014</a></li>\
             <li><a href="documents/nov2014.pdf">November 2014</a></li>\
             <li><a href="documents/oct2014.pdf">October 2014</a></li>\
