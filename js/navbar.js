@@ -30,6 +30,7 @@ $(document).ready(function(){
           <li id="newsletters" class="dropdown">\
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Newsletters <b class="caret"></b></a>\
           <ul class="dropdown-menu">\
+            <li><a href="documents/jan2016.pdf">January 2016</a></li>\
             <li><a href="documents/dec2015.pdf">December 2015</a></li>\
             <li><a href="documents/oct2015.pdf">October 2015</a></li>\
             <li><a href="documents/jun2015.pdf">June 2015</a></li>\
